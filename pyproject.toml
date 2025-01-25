@@ -3,16 +3,16 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "$$"
+name = "taktoga"
 version = "0.1.0"
-dependencies = []
+dependencies = ["toga", "efus", "atak", "pyoload>=3.0.0"]
 authors = [
     {name = "Engon Ken Morel", email = "engonken8@gmail.com"}
 ]
 maintainers = [
     {name = "Engon Ken Morel", email = "engonken8@gmail.com"}
 ]
-description = "$$"
+description = "Efus bindings for toga."
 readme = "README.md"
 license = {file = "LICENSE"}
 keywords = []
@@ -39,6 +39,6 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ken-morel/$$"
-Repository = "https://github.com/ken-morel/$$"
-Issues = "https://github.com/ken-morel/$$/issues"
+Homepage = "https://github.com/recordbreakersorg/taktoga"
+Repository = "https://github.com/recordbreakersorg/taktoga"
+Issues = "https://github.com/recordbreakersorg/taktoga/issues"
